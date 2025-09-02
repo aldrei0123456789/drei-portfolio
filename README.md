@@ -1,8 +1,10 @@
+
+
 <p align="center">
-  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="Hi People of CCA!" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" />
 </p>
 
-<img align="right" src="your-photo.jpg" alt="My Photo" width="150" style="border-radius: 10px;" />
+<img align="right" src="your-photo.jpg" alt="MY%20PICTURE.jpg" width="150" style="border-radius: 10px;" />
 
 # 👋 Hello, I'm Aldrei John M. Diola
 
