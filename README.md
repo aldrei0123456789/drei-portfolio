@@ -1,10 +1,10 @@
 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="Hi People of CCA!" />
 </p>
 
-<img align="right" src="your-photo.jpg" alt="MY%20PICTURE.jpg" width="150" style="border-radius: 10px;" />
+<img align="right" src="https://raw.githubusercontent.com/aldrei0123456789/drei-portfolio/main/aldreipogi123.jpg" width="150" alt="Aldrei's Photo" />
 
 # 👋 Hello, I'm Aldrei John M. Diola
 
@@ -38,9 +38,9 @@
 
 | Project | Description | Link |
 |--------|-------------|------|
-| 🚧 Project 1 | *Waley pa* | 🔒 Coming soon |
-| 🚧 Project 2 | *Waley pa* | 🔒 Coming soon |
-| 🚧 Project 3 | *Raley pa* | 🔒 Coming soon |
+|  Project 1 | *Waley pa* |  Coming soon |
+|  Project 2 | *Waley pa* |  Coming soon |
+|  Project 3 | *Raley pa* |  Coming soon |
 
 ---
 
