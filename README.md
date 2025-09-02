@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="Hi People of CCA!" />
+</p>
+
+<img align="right" src="your-photo.jpg" alt="My Photo" width="150" style="border-radius: 10px;" />
+
 # 👋 Hello, I'm Aldrei John M. Diola
 
 ## WELCOME TO MY PORTFOLIO
@@ -10,25 +16,37 @@
 - 📍 I live in Brgy. Pulung Maragul, Purok 6 Sitio Pader, Angeles City, Pampanga.
 - 💡 My hobbies are listening to music, watch anime, cook, play basketball and online games.
 - 🍗 My favorite ulam are sinigang, tinola and adobo
+- 💻 PL Languages I know are -> C, Java, (not so confident)
 
 ---
 
 ## 🎓 Educational Background
--  System Plus College Foundation (SHS)
- TVL-HE S.Y 2022-2024
+- System Plus College Foundation (SHS)  
+  TVL-HE S.Y 2022-2024
 
-- Rafael L. Lazatin Memorial High School (JHS)
- S.Y 2018-2022
+- Rafael L. Lazatin Memorial High School (JHS)  
+  S.Y 2018-2022
 
-- Gueco Balibago Elementary School
- S.Y 2012-2018
+- Gueco Balibago Elementary School  
+  S.Y 2012-2018
+
+---
+
+## 🔗 My Project Links
+
+| Project | Description | Link |
+|--------|-------------|------|
+| 🚧 Project 1 | *Waley pa* | 🔒 Coming soon |
+| 🚧 Project 2 | *Waley pa* | 🔒 Coming soon |
+| 🚧 Project 3 | *Raley pa* | 🔒 Coming soon |
 
 ---
 
 ## 📫 Contact Me
 
 - 📧 Email: aldreijohndiola@gmail.com  
-- 💬 Social: FB: Aldre Diola IG: @aa4svp
+- 💬 Social: FB: Aldre Diola  
+  IG: [@aa4svp](https://instagram.com/aa4svp)
 
 ---
 
