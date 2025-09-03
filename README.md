@@ -40,8 +40,8 @@
 
 | Project | Description | Link |
 |--------|-------------|------|
-|  Project 1 | *Waley pa* |  Coming soon |
-|  Project 2 | *Waley pa* |  Coming soon |
+|  Project 1 | *Waley pa* | (https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=sharing) |
+|  Midterm Lab Task 2 | Loop Construct |  Coming soon |
 |  Project 3 | *Raley pa* |  Coming soon |
 
 ---
