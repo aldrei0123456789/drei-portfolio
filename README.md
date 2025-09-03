@@ -40,9 +40,9 @@
 
 | Project | Description |  |
 |--------|-------------|------|
-|  Midterm Lab Task 1 | Getting started with Python |  |
-|  Midterm Lab Task 2 | Loop Construct | (https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=sharing) |
-|  Project 3 | *Raley pa* |  Coming soon |
+|  Paired Task 1 | Hospital System (identifying objects, properties, methods)| https://docs.google.com/document/d/1Iv5juzgOnSnWPtUKXsm6dzUyEwGK6pWSPgYK-DxyNak/edit?usp=sharing |
+|  Midterm Lab Task 1 | Getting started with Python | asdasddadas |
+|  Midterm Lab Task 2 | Loop Construct |  (https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=sharing) |
 
 ---
 
