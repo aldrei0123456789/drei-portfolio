@@ -38,10 +38,10 @@
 
 ## 🔗 My Project Links
 
-| Project | Description | Link |
+| Project | Description |  |
 |--------|-------------|------|
-|  Project 1 | *Waley pa* | (https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=sharing) |
-|  Midterm Lab Task 2 | Loop Construct |  Coming soon |
+|  Midterm Lab Task 1 | Getting started with Python |  |
+|  Midterm Lab Task 2 | Loop Construct | (https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=sharing) |
 |  Project 3 | *Raley pa* |  Coming soon |
 
 ---
