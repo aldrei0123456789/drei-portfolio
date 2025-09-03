@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" alt="Hi People of CCA!" />
 </p>
----
 <img src="https://raw.githubusercontent.com/aldrei0123456789/drei-portfolio/main/aldreipogi123.jpg" width="150" alt="Aldrei's Photo" />
 
 
