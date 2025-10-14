@@ -41,8 +41,11 @@
 | Project | Description |  |
 |--------|-------------|------|
 |  Paired Task 1 | Hospital System (identifying objects, properties, methods)| https://docs.google.com/document/d/1Iv5juzgOnSnWPtUKXsm6dzUyEwGK6pWSPgYK-DxyNak/edit?usp=sharing |
-|  Midterm Lab Task 1 | Getting started with Python | asdasddadas |
+|  Midterm Lab Task 1 | Getting started with Python | https://drive.google.com/file/d/1gydGN7vPNaY-GYgkR5TnTiV0WMmW6Nz6/view?usp=classroom_web&authuser=0 |  
 |  Midterm Lab Task 2 | Loop Construct |  (https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=sharing) |
+|  Midterm Lab Task 3 | Using List Collections  | https://drive.google.com/file/d/1HvXX7uyzzt8WPfMyWQ76Sc1iCSVtHHgv/view?usp=classroom_web&authuser=0 |
+|  Midterm Practice Task | Practice Task using Collections | https://drive.google.com/file/d/1MJyz-ToghNVmMq5woEpYEypSyxRP-v7K/view?usp=classroom_web&authuser=0 |
+|  Midterm Lab Task 5 | Getting started with Python | asdasddadas |
 
 ---
 
