@@ -18,7 +18,7 @@
 ## 🌍 About Me
 - 👨 I’m 19 years old and currently a 2nd-year Computer Science student at CCA (City College of Angeles).
 - 📍 I live in Brgy. Pulung Maragul, Purok 6 Sitio Pader, Angeles City, Pampanga.
-- 💡 My hobbies are listening to music, watch anime, cook, play basketball and online games.
+- 💡 My hobbies are listening to music, watching anime,cooking,playing basketball and online games.
 - 🍗 My favorite ulam are sinigang, tinola and adobo
 - 💻 PL Languages I know are -> C, Java, (not so confident)
 
