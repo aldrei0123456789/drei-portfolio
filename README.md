@@ -41,10 +41,10 @@
 | Project | Description |  |
 |--------|-------------|------|
 |  Paired Task 1 | Hospital System (identifying objects, properties, methods)| [View Project](https://docs.google.com/document/d/1Iv5juzgOnSnWPtUKXsm6dzUyEwGK6pWSPgYK-DxyNak/edit?usp=sharing) |
-|  Midterm Lab Task 1 | Getting started with Python | [View Project](https://drive.google.com/file/d/1gydGN7vPNaY-GYgkR5TnTiV0WMmW6Nz6/view?usp=classroom_web&authuser=0) |  
-|  Midterm Lab Task 2 | Loop Construct | [View Project](https://drive.google.com/file/d/1Af_WL280cSMMOd-EeERR-tHxRXvM_ByA/view?usp=classroom_web&authuser=0) |
-|  Midterm Lab Task 3 | Using List Collections  | [View Project](https://drive.google.com/file/d/1HvXX7uyzzt8WPfMyWQ76Sc1iCSVtHHgv/view?usp=classroom_web&authuser=0) |
-|  Midterm Lab Task 4 | Using Dictionary Collections  | [View Project](https://drive.google.com/file/d/1K0b-0d7Lj6sXZdYCHB4mIP-Y4hRKtAE0/view?usp=drivesdk) |
+|  Midterm Lab Task 1 | Getting started with Python | [View Project](https://docs.google.com/document/d/1LS78SPUOt-AV93bW8QklJ0BfVAWgqzLjT8DXdEmrcEo/edit?usp=drivesdk) |  
+|  Midterm Lab Task 2 | Loop Construct | [View Project](https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=drivesdk) |
+|  Midterm Lab Task 3 | Using List Collections  | [View Project](https://docs.google.com/document/d/1_v14GNlo1xiZ4VDYxF9PzTHbjvGQiup21b96G4fJzF8/edit?usp=drivesdk) |
+|  Midterm Lab Task 4 | Using Dictionary Collections  | [View Project](https://docs.google.com/document/d/1E9ivtLHJ8GELthYoGqfYHlwsysW6HYvnwtD7iODNUI0/edit?usp=drivesdk) |
 |  Midterm Practice Task | Practice Task using Collections | [View Project](https://drive.google.com/file/d/1MJyz-ToghNVmMq5woEpYEypSyxRP-v7K/view?usp=classroom_web&authuser=0) |
 |  Midterm Lab Task 5 | Creating and Instantiating Classes | [View Code](https://drive.google.com/file/d/12KflH5bZNuWZ8tdOmrdJ-pqwUSaFUKLa/view?usp=classroom_web&authuser=0) // [View Output](https://drive.google.com/file/d/11sfxU-3zAJTPjGJKY-FE7A1exSXNVEi3/view?usp=classroom_web&authuser=0) |
 | Midterm Lab Task 6 | Overloaded Consturctors | [View Code](https://drive.google.com/file/d/1FhGNZMFb7BgrBg7lSfdDnwUR0jXchOp4/view?usp=classroom_web&authuser=0) // [View Output](https://drive.google.com/file/d/1Tq_zAXR8VuuZ_H94Pl4liBe65gtdW6PG/view?usp=classroom_web&authuser=0) |
