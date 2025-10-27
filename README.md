@@ -46,7 +46,7 @@
 |  Midterm Lab Task 3 | Using List Collections  | [View Project](https://docs.google.com/document/d/1_v14GNlo1xiZ4VDYxF9PzTHbjvGQiup21b96G4fJzF8/edit?usp=drivesdk) |
 |  Midterm Lab Task 4 | Using Dictionary Collections  | [View Project](https://docs.google.com/document/d/1E9ivtLHJ8GELthYoGqfYHlwsysW6HYvnwtD7iODNUI0/edit?usp=drivesdk) |
 |  Midterm Practice Task | Practice Task using Collections | [View Project](https://drive.google.com/file/d/1MJyz-ToghNVmMq5woEpYEypSyxRP-v7K/view?usp=classroom_web&authuser=0) |
-|  Midterm Lab Task 5 | Creating and Instantiating Classes | [View Code](https://docs.google.com/document/d/1L81i5qEwGh4aWL3TJ3GUbcHSnBBEXTYNDenyd5Q5LLc/edit?usp=drivesdk) |
+|  Midterm Lab Task 5 | Creating and Instantiating Classes | [View Project](https://docs.google.com/document/d/1L81i5qEwGh4aWL3TJ3GUbcHSnBBEXTYNDenyd5Q5LLc/edit?usp=drivesdk) |
 | Midterm Lab Task 6 | Overloaded Consturctors | [View Project](https://docs.google.com/document/d/1O4GMVlWUZj_xm4Yi-rkxziHTJyt5v09v95b3eRRLyYY/edit?usp=drivesdk) |
 
 ---
