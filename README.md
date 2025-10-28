@@ -20,7 +20,7 @@
 - 📍 I live in Brgy. Pulung Maragul, Purok 6 Sitio Pader, Angeles City, Pampanga.
 - 💡 My hobbies are listening to music, watching anime,cooking,playing basketball and online games.
 - 🍗 My favorite ulam are sinigang, tinola and adobo
-- 💻 PL Languages I know are -> C, Java, (not so confident)
+- 💻 PL Languages I know are -> C, Java, and Python (not so confident)
 
 ---
 
@@ -53,7 +53,7 @@
 ## 📫 Contact Me
 
 - 📧 Email: aldreijohndiola@gmail.com  
-- 💬 Social: FB: Aldre Diola  
+- 💬 Social: FB: [Aldre Diola](https://www.facebook.com/AsvppAjj/?viewas=&should_open_composer=false&show_switched_toast=false&show_invite_to_follow=false&show_switched_tooltip=false&show_podcast_settings=false&show_community_review_changes=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true)
   IG: [@aa4svp](https://instagram.com/aa4svp)
 
 ---
