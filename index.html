@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aldrei John M. Diola — Portfolio</title>
   <style>
     :root {
-      --bg: #000000;
-      --card: #101010;
-      --accent: #00ff66;
-      --muted: #7f8c8d;
-      --glass: rgba(255, 255, 255, 0.03);
+      --bg1: #000000;
+      --bg2: #001a0d;
+      --accent: #00ff88;
+      --muted: #a0a0a0;
+      --card: rgba(0, 0, 0, 0.6);
       --radius: 16px;
-      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      color-scheme: dark;
+      font-family: "Inter", system-ui, sans-serif;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
+    /* ✨ Background animation */
     body {
       margin: 0;
-      background: linear-gradient(180deg, #000000 60%, #041014 100%);
       color: white;
+      background: linear-gradient(-45deg, var(--bg1), var(--bg2), #00331a, #001a0d);
+      background-size: 400% 400%;
+      animation: gradientMove 12s ease infinite;
       overflow-x: hidden;
     }
 
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* 🧠 Header */
     header {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 40px 20px 20px;
+      padding: 60px 20px 20px;
       text-align: center;
     }
 
@@ -41,6 +48,7 @@
       border-radius: 14px;
       overflow: hidden;
       border: 3px solid var(--accent);
+      box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
       margin-bottom: 20px;
     }
 
@@ -51,32 +59,33 @@
     }
 
     header h1 {
-      font-size: 28px;
-      margin: 0;
+      font-size: 30px;
       color: var(--accent);
+      margin: 10px 0 5px;
     }
 
     header p {
       color: var(--muted);
-      margin: 8px 0 0;
       font-size: 15px;
     }
 
+    /* 📦 Section cards */
     section {
       max-width: 900px;
       margin: 40px auto;
       background: var(--card);
       border-radius: var(--radius);
       padding: 24px;
-      box-shadow: 0 0 20px rgba(0, 255, 102, 0.05);
+      box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
+      backdrop-filter: blur(10px);
     }
 
     section h2 {
       color: var(--accent);
+      font-size: 22px;
       margin-bottom: 16px;
-      font-size: 20px;
-      border-bottom: 1px solid rgba(0, 255, 102, 0.2);
-      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+      padding-bottom: 6px;
     }
 
     table {
@@ -85,13 +94,9 @@
     }
 
     table th, table td {
-      text-align: left;
       padding: 10px;
+      text-align: left;
       font-size: 14px;
-    }
-
-    table th {
-      color: var(--muted);
     }
 
     table tr {
@@ -102,22 +107,33 @@
       color: var(--accent);
       text-decoration: none;
       font-weight: 600;
+      transition: color 0.2s;
     }
 
+    table a:hover {
+      color: white;
+      text-shadow: 0 0 5px var(--accent);
+    }
+
+    /* 💫 Footer */
     footer {
       text-align: center;
       padding: 30px 0;
       color: var(--muted);
       font-size: 13px;
-      background: #000000;
       border-top: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    footer span {
+      color: var(--accent);
     }
   </style>
 </head>
 <body>
   <header>
     <div class="avatar">
-      <img src="your-photo.jpg" alt="Aldrei John M. Diola">
+      <img src="aldreipogi123.jpg" alt="Aldrei John M. Diola">
     </div>
     <h1>Aldrei John M. Diola</h1>
     <p>2nd-year Computer Science Student • Python, C, Java</p>
@@ -125,7 +141,7 @@
 
   <section>
     <h2>Projects</h2>
-    <p>A selection of your class projects and lab tasks.</p>
+    <p>A selection of my class projects and lab tasks.</p>
     <table>
       <tr>
         <th>Project</th>
@@ -134,12 +150,12 @@
       </tr>
       <tr>
         <td>Paired Task 1</td>
-        <td>Hospital System (objects, properties, methods)</td>
+        <td>Hospital System (Objects, Properties, Methods)</td>
         <td><a href="#">View</a></td>
       </tr>
       <tr>
         <td>Midterm Lab Task 1</td>
-        <td>Getting started with Python</td>
+        <td>Getting Started with Python</td>
         <td><a href="#">View</a></td>
       </tr>
       <tr>
@@ -158,11 +174,6 @@
         <td><a href="#">View</a></td>
       </tr>
       <tr>
-        <td>Midterm Practice Task</td>
-        <td>Practice Task using Collections</td>
-        <td><a href="#">View</a></td>
-      </tr>
-      <tr>
         <td>Midterm Lab Task 5</td>
         <td>Creating and Instantiating Classes</td>
         <td><a href="#">View</a></td>
@@ -176,7 +187,7 @@
   </section>
 
   <footer>
-    © Aldrei John M. Diola — Built with 💚 Black & Neon Green Theme
+    © 2025 <span>Aldrei John M. Diola</span> — Built with 💚 Black & Neon Green Theme
   </footer>
 </body>
 </html>
