@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aldrei John M. Diola — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#000000;
+      --card:#071013;
+      --accent:#00ff66; /* neon green */
+      --muted:#7f8c8d;
+      --glass: rgba(255,255,255,0.03);
+      --radius:16px;
+      font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, 'Helvetica Neue', Arial;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#000 0%, #041014 60%);color:#e6f7ee}/* animated grid background */
+body::before{
+  content:"";
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:linear-gradient(90deg, rgba(0,255,102,0.02) 1px, transparent 1px),linear-gradient(0deg, rgba(0,255,102,0.02) 1px, transparent 1px);
+  background-size:120px 120px,120px 120px;
+  opacity:0.9;mix-blend-mode:screen;
+  animation: drift 40s linear infinite;
+  filter: blur(6px);
+}
+@keyframes drift{ from{transform:translateY(0)} to{transform:translateY(-200px)} }
+
+.container{position:relative;z-index:1;max-width:1000px;margin:48px auto;padding:28px}
+
+header{display:flex;gap:20px;align-items:center}
+.avatar{width:130px;height:130px;border-radius:14px;overflow:hidden;border:2px solid rgba(0,255,102,0.15);flex-shrink:0}
+.avatar img{width:100%;height:100%;object-fit:cover;display:block}
+.intro{flex:1}
+h1{margin:0;font-size:28px;letter-spacing:0.4px}
+p.lead{margin:6px 0 0;color:var(--muted)}
+
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:18px;margin-top:20px;box-shadow:0 6px 30px rgba(0,0,0,0.7);border:1px solid rgba(0,255,102,0.06)}
+
+.grid{display:grid;grid-template-columns:1fr 320px;gap:22px}
+@media (max-width:880px){.grid{grid-template-columns:1fr;}}
+
+section h2{font-size:16px;margin:0 0 8px;color:var(--accent)}
+.about-list{display:flex;flex-wrap:wrap;gap:10px;color:var(--muted);}
+.chip{background:var(--glass);padding:8px 12px;border-radius:999px;font-size:13px;border:1px solid rgba(0,255,102,0.04)}
+
+table{width:100%;border-collapse:collapse;margin-top:8px}
+table th, table td{padding:10px 8px;border-bottom:1px dashed rgba(255,255,255,0.03);text-align:left;font-size:14px}
+table th{color:var(--muted);font-weight:600}
+a.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg, rgba(0,255,102,0.08), rgba(0,255,102,0.03));border:1px solid rgba(0,255,102,0.12);color:var(--accent);text-decoration:none;font-weight:600}
+
+footer{margin-top:18px;color:var(--muted);font-size:13px}
+
+/* small utilities */
+.meta{display:flex;gap:12px;flex-wrap:wrap}
+.social a{color:var(--muted);text-decoration:none;margin-right:10px}
+
+/* accent underline animation */
+.underline{position:relative}
+.underline::after{content:"";position:absolute;left:0;bottom:-4px;height:3px;width:0;background:linear-gradient(90deg,var(--accent),#9cffb8);border-radius:4px;transition:width .35s}
+.underline:hover::after{width:100%}
+
+/* project link style */
+.project-link{color:var(--accent);text-decoration:none;font-weight:600}
+
+/* subtle neon glow headings */
+.glow{text-shadow:0 0 12px rgba(0,255,102,0.08)}
+
+/* info sidebar */
+.sidebar h3{margin-top:0}
+.contact-item{padding:8px;border-radius:10px;background:rgba(255,255,255,0.015);margin-bottom:8px}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">
+        <img src="https://raw.githubusercontent.com/aldrei0123456789/drei-portfolio/main/aldreipogi123.jpg" alt="Aldrei photo">
+      </div>
+      <div class="intro">
+        <h1 class="glow">Aldrei John M. Diola <span style="font-weight:500;color:var(--muted);font-size:14px">— Beginner Software Dev</span></h1>
+        <p class="lead">19 | 2nd-year Computer Science — City College of Angeles • Brgy. Pulung Maragul, Angeles City, Pampanga</p>
+        <div style="margin-top:12px" class="meta">
+          <a class="btn" href="mailto:aldreijohndiola@gmail.com">✉️ Email</a>
+          <a class="btn" href="https://github.com/" target="_blank"> GitHub</a>
+          <a class="btn" href="#projects">📁 Projects</a>
+        </div>
+      </div>
+      <div style="width:1px;background:linear-gradient(#061212,transparent);height:90px;margin-left:16px"></div>
+      <div style="text-align:center;min-width:120px">
+        <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="hi gif" style="width:90px;height:90px;border-radius:10px;border:1px solid rgba(0,255,102,0.06);object-fit:cover">
+        <div style="font-size:12px;color:var(--muted);margin-top:8px">Hi! 👋</div>
+      </div>
+    </header><main class="grid">
+  <div>
+    <div class="card">
+      <section id="about">
+        <h2>🌍 About Me</h2>
+        <p>I'm a beginner coder learning C, Java, and Python. I enjoy music, anime, cooking, basketball, and online games. Favorite ulam: sinigang, tinola, adobo.</p>
+        <div style="margin-top:12px" class="about-list">
+          <span class="chip">19 years old</span>
+          <span class="chip">2nd-year CS — CCA</span>
+          <span class="chip">Brgy. Pulung Maragul</span>
+          <span class="chip">Languages: C · Java · Python</span>
+        </div>
+      </section>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <section id="education">
+        <h2>🎓 Education</h2>
+        <ul style="margin:8px 0 0;padding-left:18px;color:var(--muted)">
+          <li>System Plus College Foundation — TVL-HE (SHS) S.Y. 2022–2024</li>
+          <li>Rafael L. Lazatin Memorial High School — JHS S.Y. 2018–2022</li>
+          <li>Gueco Balibago Elementary School — S.Y. 2012–2018</li>
+        </ul>
+      </section>
+    </div>
+
+    <div id="projects" class="card" style="margin-top:18px">
+      <section>
+        <h2 class="underline">🔗 Projects</h2>
+        <p style="margin:6px 0 10px;color:var(--muted)">A selection of your class projects and lab tasks.</p>
+        <table>
+          <thead>
+            <tr><th>Project</th><th>Description</th><th>Link</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Paired Task 1</td><td>Hospital System (objects, properties, methods)</td><td><a class="project-link" href="https://docs.google.com/document/d/1Iv5juzgOnSnWPtUKXsm6dzUyEwGK6pWSPgYK-DxyNak/edit?usp=sharing" target="_blank">View</a></td></tr>
+            <tr><td>Midterm Lab Task 1</td><td>Getting started with Python</td><td><a class="project-link" href="https://docs.google.com/document/d/1LS78SPUOt-AV93bW8QklJ0BfVAWgqzLjT8DXdEmrcEo/edit?usp=drivesdk" target="_blank">View</a></td></tr>
+            <tr><td>Midterm Lab Task 2</td><td>Loop Construct</td><td><a class="project-link" href="https://docs.google.com/document/d/1JtXzwtWSZebzVtSDbs1RZKKKxP7ZrVd6NaNkqe_bnYk/edit?usp=drivesdk" target="_blank">View</a></td></tr>
+            <tr><td>Midterm Lab Task 3</td><td>Using List Collections</td><td><a class="project-link" href="https://docs.google.com/document/d/1_v14GNlo1xiZ4VDYxF9PzTHbjvGQiup21b96G4fJzF8/edit?usp=drivesdk" target="_blank">View</a></td></tr>
+            <tr><td>Midterm Lab Task 4</td><td>Using Dictionary Collections</td><td><a class="project-link" href="https://docs.google.com/document/d/1E9ivtLHJ8GELthYoGqfYHlwsysW6HYvnwtD7iODNUI0/edit?usp=drivesdk" target="_blank">View</a></td></tr>
+            <tr><td>Midterm Practice Task</td><td>Practice Task using Collections</td><td><a class="project-link" href="https://drive.google.com/file/d/1nkn-P-bZ4GQJmvUWk5Of3h70NIdKP9rO/view?usp=drivesdk" target="_blank">View</a></td></tr>
+            <tr><td>Midterm Lab Task 5</td><td>Creating and Instantiating Classes</td><td><a class="project-link" href="https://docs.google.com/document/d/1L81i5qEwGh4aWL3TJ3GUbcHSnBBEXTYNDenyd5Q5LLc/edit?usp=drivesdk" target="_blank">View</a></td></tr>
+            <tr><td>Midterm Lab Task 6</td><td>Overloaded Constructors</td><td><a class="project-link" href="https://docs.google.com/document/d/1O4GMVlWUZj_xm4Yi-rkxziHTJyt5v09v95b3eRRLyYY/edit?usp=drivesdk" target="_blank">View</a></td></tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="card">
+      <h3>Contact</h3>
+      <div class="contact-item"><strong>Email:</strong><div style="color:var(--muted);">aldreijohndiola@gmail.com</div></div>
+      <div class="contact-item"><strong>Social</strong><div style="color:var(--muted);margin-top:6px"><a href="https://www.facebook.com/AsvppAjj/?viewas=&should_open_composer=false" target="_blank">Facebook</a> · <a href="https://instagram.com/aa4svp" target="_blank">Instagram</a></div></div>
+      <div class="contact-item"><strong>Location</strong><div style="color:var(--muted);margin-top:6px">Pulung Maragul, Angeles City, Pampanga</div></div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h3>Quick facts</h3>
+      <p style="color:var(--muted);margin:6px 0 0">Beginner in coding • Learning projects in C, Java, Python • 2nd-year CS student</p>
+    </div>
+
+    <div class="card" style="margin-top:18px;text-align:center">
+      <h3>Preview</h3>
+      <p style="color:var(--muted);font-size:13px">Save this file as <code>index.html</code> and open in your browser to preview. To host on GitHub Pages, push to a repository and enable Pages in repo settings.</p>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+    <div>© Aldrei John M. Diola — Built with ❤️ • Black & Neon Green theme</div>
+    <div style="color:var(--muted)">Tip: Want a downloadable resume button or GitHub deployment script? I can add it.</div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
